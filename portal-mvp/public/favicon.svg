@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Border Gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="50%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+    
+    <!-- Star Gradients -->
+    <linearGradient id="mainStarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+
+    <linearGradient id="secStarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c084fc" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+
+    <!-- Ambient Glow -->
+    <radialGradient id="centerGlow" cx="45%" cy="52%" r="40%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="secGlow" cx="70%" cy="30%" r="30%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Outer Gradient Squircle -->
+  <rect x="18" y="18" width="476" height="476" rx="118" ry="118" fill="url(#borderGrad)" />
+
+  <!-- Inner Dark Base -->
+  <rect x="30" y="30" width="452" height="452" rx="106" ry="106" fill="#09090c" />
+
+  <!-- Soft Ambient Glow -->
+  <circle cx="240" cy="270" r="160" fill="url(#centerGlow)" />
+  <circle cx="358" cy="154" r="120" fill="url(#secGlow)" />
+
+  <!-- Small ambient particle -->
+  <circle cx="133" cy="143" r="6" fill="#22d3ee" opacity="0.8" />
+
+  <!-- Secondary Star (Top-Right) -->
+  <path d="M 358 87 Q 358 154 425 154 Q 358 154 358 221 Q 358 154 291 154 Q 358 154 358 87 Z"
+        fill="url(#secStarGrad)" />
+  <circle cx="358" cy="154" r="8" fill="#ffffff" />
+
+  <!-- Primary AI Sparkle Star (Center-Left) -->
+  <!-- Top: (240, 122), Bottom: (240, 418), Left: (92, 270), Right: (388, 270), Center: (240, 270) -->
+  <path d="M 240 122 Q 240 270 388 270 Q 240 270 240 418 Q 240 270 92 270 Q 240 270 240 122 Z"
+        fill="url(#mainStarGrad)" />
+  <circle cx="240" cy="270" r="16" fill="#ffffff" />
+</svg>
