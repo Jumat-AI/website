@@ -18,27 +18,27 @@ Dokumen ini berisi rekapitulasi lengkap dan kronologis dari seluruh kegiatan **S
 
 ## 📅 Daftar Jadwal Kronologis
 
-| No | Nama Agenda / Sesi | Tanggal | Waktu (WIB) | Status | Catatan Partisipasi / Topic |
+| No | Nama Agenda / Sesi (Sesuai Google Calendar) | Tanggal | Waktu (WIB) | Status | Link Google Meet |
 |:--:|:---|:---:|:---:|:---:|:---|
-| 1 | **Sharing AI #1** | 14 Juni 2026 | 14:00 - 15:30 | Selesai | Kickoff / Pengenalan AI & LLM |
-| 2 | **Sharing AI #2** | 21 Juni 2026 | 14:00 - 15:30 | Selesai | Prompt Engineering Fundamentals |
-| 3 | **Sharing AI #3** | 28 Juni 2026 | 14:00 - 15:30 | Selesai | Tools & AI Productivity |
-| 4 | **Sharing AI #4** | 05 Juli 2026 | 14:00 - 15:30 | Selesai | Generative Image AI |
-| 5 | **Sharing AI #5** | 12 Juli 2026 | 14:00 - 15:30 | Selesai | AI untuk Analisis Data & Dokumen |
-| 6 | **Sharing AI #6** | 19 Juli 2026 | 14:00 - 15:30 | Selesai | Integrasi AI dalam Workflow Kerja |
-| 7 | **Sharing AI #7** | 24 Juli 2026 | 14:00 - 15:30 | Selesai | Model Context Protocol (MCP) |
-| 8 | **Sharing AI #8** | 02 Agustus 2026 | 14:00 - 15:30 | Selesai | AI Automation & Scripting |
-| 9 | **Sharing AI #9** | 09 Agustus 2026 | 14:00 - 15:30 | Selesai | Arsitektur LLM & Model Tuning |
-| 10 | **Sharing AI #10** | 16 Agustus 2026 | 14:00 - 15:30 | Selesai | Local LLM & Privasi Data |
-| 11 | **Sharing AI #11** | 23 Agustus 2026 | 14:00 - 15:30 | Selesai | RAG (Retrieval-Augmented Generation) |
-| 12 | **Sharing AI #12** | 04 September 2026 | 14:00 - 15:30 | Selesai | ±9 Peserta Aktif (Log Chat Meet) |
-| 13 | **Sharing AI #13** | 11 September 2026 | 14:00 - 15:30 | Selesai | Advanced Vector DB & Search |
-| 14 | **Sharing AI #14** | 18 September 2026 | 14:00 - 15:30 | Selesai | AI Agents & Multi-Agent Framework |
-| 15 | **Sharing AI #15** | 25 September 2026 | 14:00 - 15:30 | Selesai | ComfyUI Custom Nodes |
-| 16 | **Sharing AI #16** | 09 Oktober 2026 | 14:00 - 15:30 | Selesai | Optimization & AI Performance |
-| 17 | **Sharing AI #17** | 23 Oktober 2026 | 14:00 - 15:30 | Selesai | ±10 Peserta Aktif (Log Chat Meet) |
-| 18 | **Sharing AI #18: Bingung Bareng Comfy UI (lagi)** | 30 Oktober 2026 | 14:00 - 15:30 | Hari Ini | Pertemuan Aktif |
-| 19 | **Sharing AI #19** | 06 November 2026 | 14:00 - 15:30 | Mendatang | Evaluasi & Next Steps |
+| 0 | **Sharing AI Initial Gmeet** | 14 Juni 2026 | 19:00 - 20:00 | Selesai | [Meet](https://meet.google.com/yms-hwxg-oky) |
+| 1 | **Sharing AI #1 - Hands-On : Documents to Database dengan AI** | 19 Juni 2026 | 08:00 - 11:00 | Selesai | [Meet](https://meet.google.com/sum-koqn-pcu) |
+| 2 | **BRING IT ON : "Data Analytic Menggunakan Teratai"** | 26 Juni 2026 | 14:00 - 15:00 | Selesai | [Meet](https://meet.google.com/bvg-avzt-hth) |
+| 3 | **Sharing AI #3: Bingung Bareng Obsidian - Hermes** | 03 Juli 2026 | 14:00 - 15:00 | Selesai | [Meet](https://meet.google.com/xgo-ozwn-cop) |
+| 4 | **Sharing AI #4: Bingung Bareng Opencode** | 10 Juli 2026 | 08:00 - 09:00 | Selesai | [Meet](https://meet.google.com/urw-tiis-gkm) |
+| 5 | **Sharing AI #5: Bingung Bareng NotebookLM** | 17 Juli 2026 | 14:00 - 15:00 | Selesai | [Meet](https://meet.google.com/paa-auds-hzr) |
+| 6 | **Sharing AI #6: Bingung Bareng Model Context Protocol (MCP)** | 24 Juli 2026 | 19:00 - 20:00 | Selesai | [Meet](https://meet.google.com/oxa-vztj-ojo) |
+| 7 | **Sharing AI #7: Cari Cuan Pake Hermes** | 31 Juli 2026 | 14:00 - 15:00 | Selesai | [Meet](https://meet.google.com/xhw-xpud-bmv) |
+| 8 | **Sharing AI #8: Bingung Bareng OmniRoute** | 07 Agustus 2026 | 14:00 - 15:00 | Selesai | [Meet](https://meet.google.com/nsj-tkee-uey) |
+| 9 | **Sharing AI #9: Bingung Bareng Ngisi Kertas Kerja pake AI** | 14 Agustus 2026 | 14:00 - 15:00 | Selesai | [Meet](https://meet.google.com/rsy-rqwq-tvp) |
+| 10 | **Sharing AI #10: Bingung Bareng Obsidian (Lagi)** | 21 Agustus 2026 | 14:00 - 15:00 | Selesai | [Meet](https://meet.google.com/ctd-najc-xte) |
+| 11 | **Sharing AI #11: Bingung Bareng Pi** | 28 Agustus 2026 | 14:00 - 15:00 | Selesai | [Meet](https://meet.google.com/kjd-sueq-imq) |
+| 12 | **Sharing AI #12 A Retrospective: Dari LLM sampai Cara Menggunakannya** | 04 September 2026 | 14:00 - 15:00 | Selesai | [Meet](https://meet.google.com/khp-zxmf-sxz) |
+| 13 | **Sharing AI #13: Fun Flexing Bareng Pejabat** | 11 September 2026 | 16:00 - 17:00 | Selesai | [Meet](https://meet.google.com/bei-ppup-fex) |
+| 14 | **Sharing AI #14: Bingung Bareng JEV** | 25 September 2026 | 14:00 - 15:00 | Selesai | [Meet](https://meet.google.com/kwa-gczv-rmq) |
+| 15 | **Sharing AI #15: Flexing Desktop Pet** | 02 Oktober 2026 | 14:00 - 15:00 | Selesai | [Meet](https://meet.google.com/qpo-ocxn-hix) |
+| 16 | **Sharing AI #16: Flexing & Brainstorming Bareng Pejabat** | 09 Oktober 2026 | 14:00 - 15:00 | Selesai | [Meet](https://meet.google.com/gnw-mvvm-kcg) |
+| 17 | **Sharing AI #17: Hari Gini Pake AI masih di Web?** | 23 Oktober 2026 | 14:00 - 15:00 | Selesai | [Meet](https://meet.google.com/ozp-goaj-bso) |
+| 18 | **Sharing AI #18: Bingung Bareng Comfy UI (lagi)** | 30 Oktober 2026 | 14:00 - 15:00 | Selesai | [Meet](https://meet.google.com/dav-upaa-ivx) |
 
 ---
 
