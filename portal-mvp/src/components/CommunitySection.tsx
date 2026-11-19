@@ -111,33 +111,6 @@ export function CommunitySection() {
             );
           })}
         </div>
-
-        {/* Active Members & Participants Showcase */}
-        {COMMUNITY_INFO.activeMembers && (
-          <div className="mt-12 rounded-2xl bg-zinc-900/40 border border-zinc-800/80 p-6 sm:p-8">
-            <div className="text-center sm:text-left mb-5">
-              <h3 className="text-sm sm:text-base font-bold text-white flex items-center justify-center sm:justify-start gap-2">
-                <span>Peserta Aktif & Kontributor Diskusi</span>
-                <span className="px-2 py-0.5 rounded text-[11px] bg-cyan-500/10 text-cyan-400 border border-cyan-500/20 font-normal">
-                  Google Meet Log
-                </span>
-              </h3>
-              <p className="text-xs text-zinc-400 mt-1">
-                Apresiasi kepada rekan-rekan yang secara konsisten hadir berdiskusi dan berbagi ide di setiap sesi mingguan:
-              </p>
-            </div>
-            <div className="flex flex-wrap items-center justify-center sm:justify-start gap-2">
-              {COMMUNITY_INFO.activeMembers.map((member, idx) => (
-                <span
-                  key={idx}
-                  className="px-3 py-1.5 rounded-lg bg-zinc-950/80 border border-zinc-800 text-xs text-zinc-300 hover:border-zinc-700 hover:text-white transition"
-                >
-                  {member}
-                </span>
-              ))}
-            </div>
-          </div>
-        )}
       </div>
     </section>
   );

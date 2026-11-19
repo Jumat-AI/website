@@ -46,23 +46,6 @@ export const COMMUNITY_INFO = {
     { label: "Peserta Aktif / Sesi", value: "8 - 10+ Org" },
     { label: "Biaya & Akses", value: "100% Gratis" },
   ],
-  activeMembers: [
-    "Heru (Organizer)",
-    "Muhamad Rizky Ramadhan",
-    "Agustian Permadi",
-    "Nevita Ary Sukarna",
-    "Taufiq Ramadhan",
-    "Bobi Setiawan",
-    "Ilman Fahmi",
-    "Timotheus Ingga Pranata",
-    "Mas Dzulfikar",
-    "Andi Irawan",
-    "Muhammad Khairizki Budiman",
-    "Reky Subagja",
-    "Roby Pria Atmaja",
-    "Rakhmat",
-    "Septian Adi Nugraha",
-  ],
 };
 
 // Sesi aktif / terdekat (Sesi #18 - Hari Ini 30 Oktober 2026)
