@@ -27,7 +27,7 @@ export interface Session {
 export const COMMUNITY_INFO = {
   name: "Jumat.AI.ID",
   tagline: "Komunitas Sharing & Belajar AI Mingguan",
-  organizer: "Heru Arief Wijaya",
+  organizer: "Heru",
   description:
     "Ruang terbuka daring bagi praktisi, pengembang, dan antusias AI di Indonesia untuk saling berbagi pengetahuan, eksplorasi tools, bedah workflow, hingga hands-on setiap Jumat siang.",
   schedule: "Setiap Jumat, 14:00 - 15:30 WIB",
@@ -47,7 +47,7 @@ export const COMMUNITY_INFO = {
     { label: "Biaya & Akses", value: "100% Gratis" },
   ],
   activeMembers: [
-    "Heru Arief Wijaya (Organizer)",
+    "Heru (Organizer)",
     "Muhamad Rizky Ramadhan",
     "Agustian Permadi",
     "Nevita Ary Sukarna",
@@ -77,7 +77,7 @@ export const UPCOMING_SESSION: Session = {
   category: "Generative AI",
   isUpcoming: true,
   speaker: {
-    name: "Heru Arief Wijaya, Ilman Fahmi & Komunitas",
+    name: "Heru, Ilman Fahmi & Komunitas",
     role: "Community Organizer & AI Practitioner",
     company: "Jumat.AI",
     avatarUrl: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=300",
@@ -102,8 +102,8 @@ export const ARCHIVED_SESSIONS: Session[] = [
     time: "14:00 - 15:00 WIB",
     category: "Productivity",
     speaker: {
-      name: "Heru Arief Wijaya",
-      role: "Organizer",
+      name: "Heru, Ilman",
+      role: "Praktisi",
       avatarUrl: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=300",
     },
     meetUrl: "https://meet.google.com/ozp-goaj-bso",
@@ -119,8 +119,8 @@ export const ARCHIVED_SESSIONS: Session[] = [
     time: "14:00 - 15:00 WIB",
     category: "Productivity",
     speaker: {
-      name: "Heru Arief Wijaya",
-      role: "Organizer",
+      name: "Khai, Ingga, dan Komunitas",
+      role: "Pejabat",
       avatarUrl: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=300",
     },
     meetUrl: "https://meet.google.com/gnw-mvvm-kcg",
@@ -136,8 +136,8 @@ export const ARCHIVED_SESSIONS: Session[] = [
     time: "14:00 - 15:00 WIB",
     category: "Agentic AI",
     speaker: {
-      name: "Heru Arief Wijaya",
-      role: "Organizer",
+      name: "Heru, Septian, Satria",
+      role: "Praktisi",
       avatarUrl: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=300",
     },
     meetUrl: "https://meet.google.com/qpo-ocxn-hix",
@@ -153,7 +153,7 @@ export const ARCHIVED_SESSIONS: Session[] = [
     time: "14:00 - 15:00 WIB",
     category: "Productivity",
     speaker: {
-      name: "Heru Arief Wijaya",
+      name: "Heru",
       role: "Organizer",
       avatarUrl: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=300",
     },
@@ -170,8 +170,8 @@ export const ARCHIVED_SESSIONS: Session[] = [
     time: "16:00 - 17:00 WIB",
     category: "Productivity",
     speaker: {
-      name: "Heru Arief Wijaya",
-      role: "Organizer",
+      name: "Khai & Ingga",
+      role: "Pejabat",
       avatarUrl: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=300",
     },
     meetUrl: "https://meet.google.com/bei-ppup-fex",
@@ -187,7 +187,7 @@ export const ARCHIVED_SESSIONS: Session[] = [
     time: "14:00 - 15:00 WIB",
     category: "LLM",
     speaker: {
-      name: "Heru Arief Wijaya",
+      name: "Heru",
       role: "Organizer",
       avatarUrl: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=300",
     },
@@ -204,8 +204,8 @@ export const ARCHIVED_SESSIONS: Session[] = [
     time: "14:00 - 15:00 WIB",
     category: "Productivity",
     speaker: {
-      name: "Heru Arief Wijaya",
-      role: "Organizer",
+      name: "Septian",
+      role: "Praktisi",
       avatarUrl: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=300",
     },
     meetUrl: "https://meet.google.com/kjd-sueq-imq",
@@ -221,8 +221,8 @@ export const ARCHIVED_SESSIONS: Session[] = [
     time: "14:00 - 15:00 WIB",
     category: "Productivity",
     speaker: {
-      name: "Heru Arief Wijaya",
-      role: "Organizer",
+      name: "Dz & Ingga",
+      role: "Praktisi",
       avatarUrl: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=300",
     },
     meetUrl: "https://meet.google.com/ctd-najc-xte",
@@ -238,8 +238,8 @@ export const ARCHIVED_SESSIONS: Session[] = [
     time: "14:00 - 15:00 WIB",
     category: "Productivity",
     speaker: {
-      name: "Heru Arief Wijaya",
-      role: "Organizer",
+      name: "Ilman & Dana",
+      role: "Praktisi",
       avatarUrl: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=300",
     },
     meetUrl: "https://meet.google.com/rsy-rqwq-tvp",
@@ -255,8 +255,8 @@ export const ARCHIVED_SESSIONS: Session[] = [
     time: "14:00 - 15:00 WIB",
     category: "MLOps",
     speaker: {
-      name: "Heru Arief Wijaya",
-      role: "Organizer",
+      name: "Septian",
+      role: "Praktisi",
       avatarUrl: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=300",
     },
     meetUrl: "https://meet.google.com/nsj-tkee-uey",
@@ -272,8 +272,8 @@ export const ARCHIVED_SESSIONS: Session[] = [
     time: "14:00 - 15:00 WIB",
     category: "Productivity",
     speaker: {
-      name: "Heru Arief Wijaya",
-      role: "Organizer",
+      name: "SPBE",
+      role: "Praktisi",
       avatarUrl: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=300",
     },
     meetUrl: "https://meet.google.com/xhw-xpud-bmv",
@@ -289,7 +289,7 @@ export const ARCHIVED_SESSIONS: Session[] = [
     time: "19:00 - 20:00 WIB",
     category: "MCP & Tools",
     speaker: {
-      name: "Heru Arief Wijaya",
+      name: "Heru",
       role: "Organizer",
       avatarUrl: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=300",
     },
@@ -306,8 +306,8 @@ export const ARCHIVED_SESSIONS: Session[] = [
     time: "14:00 - 15:00 WIB",
     category: "Productivity",
     speaker: {
-      name: "Heru Arief Wijaya",
-      role: "Organizer",
+      name: "Wildan, Genky",
+      role: "Praktisi",
       avatarUrl: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=300",
     },
     meetUrl: "https://meet.google.com/paa-auds-hzr",
@@ -323,8 +323,8 @@ export const ARCHIVED_SESSIONS: Session[] = [
     time: "08:00 - 09:00 WIB",
     category: "Productivity",
     speaker: {
-      name: "Heru Arief Wijaya",
-      role: "Organizer",
+      name: "Ilman & Ingga",
+      role: "Praktisi",
       avatarUrl: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=300",
     },
     meetUrl: "https://meet.google.com/urw-tiis-gkm",
@@ -335,12 +335,12 @@ export const ARCHIVED_SESSIONS: Session[] = [
     sessionNumber: 3,
     title: "Sharing AI #3: Bingung Bareng Obsidian - Hermes",
     description:
-      "Kolaborasi antara catatan pengetahuan Obsidian dengan model open Hermes untuk penalaran dan perangkuman terstruktur.",
+      "Kolaborasi antara catatan pengetahuan Obsidian  penalaran dan perangkuman terstruktur.",
     date: "2026-07-03",
     time: "14:00 - 15:00 WIB",
     category: "Productivity",
     speaker: {
-      name: "Heru Arief Wijaya",
+      name: "Dzul",
       role: "Organizer",
       avatarUrl: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=300",
     },
@@ -350,14 +350,14 @@ export const ARCHIVED_SESSIONS: Session[] = [
   {
     id: "session-2",
     sessionNumber: 2,
-    title: 'BRING IT ON : "Data Analytic Menggunakan Teratai"',
+    title: 'Sharing AI #2 - Hands-On : Hermes Agent',
     description:
-      "Eksplorasi analisis data dan otomasi pengolahan analitik menggunakan platform Teratai bersama komunitas.",
+      "Eksplorasi penggunaan Hermes Agent untuk otomasi dan analisis data bersama komunitas.",
     date: "2026-06-26",
     time: "14:00 - 15:00 WIB",
     category: "Productivity",
     speaker: {
-      name: "Heru Arief Wijaya",
+      name: "Heru",
       role: "Organizer",
       avatarUrl: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=300",
     },
@@ -374,8 +374,8 @@ export const ARCHIVED_SESSIONS: Session[] = [
     time: "08:00 - 11:00 WIB",
     category: "RAG",
     speaker: {
-      name: "Heru Arief Wijaya",
-      role: "Organizer",
+      name: "Ingga",
+      role: "Pejabat",
       avatarUrl: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=300",
     },
     meetUrl: "https://meet.google.com/sum-koqn-pcu",
@@ -391,7 +391,7 @@ export const ARCHIVED_SESSIONS: Session[] = [
     time: "19:00 - 20:00 WIB",
     category: "Productivity",
     speaker: {
-      name: "Heru Arief Wijaya",
+      name: "Heru",
       role: "Organizer",
       avatarUrl: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=300",
     },
@@ -422,7 +422,7 @@ export const FAQS = [
   },
   {
     q: "Siapa penyelenggara inisiatif ini?",
-    a: "Inisiatif ini diorganisir oleh Heru Arief Wijaya bersama komunitas pegiat AI yang aktif berbagi setiap pekan.",
+    a: "Inisiatif ini diorganisir oleh Heru bersama komunitas pegiat AI yang aktif berbagi setiap pekan.",
   },
   {
     q: "Bagaimana cara ikut bergabung ke sesi Google Meet?",
