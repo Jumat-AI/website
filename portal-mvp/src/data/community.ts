@@ -17,6 +17,11 @@ export interface Session {
   category: "LLM" | "Agentic AI" | "RAG" | "Generative AI" | "MLOps" | "Productivity" | "MCP & Tools";
   speaker: Speaker;
   meetUrl?: string;
+  dialIn?: {
+    phone: string;
+    pin: string;
+    moreNumbersUrl?: string;
+  };
   youtubeUrl?: string;
   slideUrl?: string;
   repoUrl?: string;
@@ -41,40 +46,66 @@ export const COMMUNITY_INFO = {
     callForSpeakersForm: "https://forms.gle/dummy-cfs-jumat-ai",
   },
   stats: [
-    { label: "Total Pertemuan", value: "19 Sesi" },
+    { label: "Total Pertemuan", value: "20 Sesi" },
     { label: "Rentang Agenda", value: "Jun - Nov 2026" },
     { label: "Peserta Aktif / Sesi", value: "8 - 10+ Org" },
     { label: "Biaya & Akses", value: "100% Gratis" },
   ],
 };
 
-// Sesi aktif / terdekat (Sesi #18 - Hari Ini 30 Oktober 2026)
+// Sesi aktif / terdekat (Sesi #19 - Hari Ini 20 November 2026)
 export const UPCOMING_SESSION: Session = {
-  id: "session-18",
-  sessionNumber: 18,
-  title: "Sharing AI #18: Bingung Bareng Comfy UI (lagi)",
+  id: "session-19",
+  sessionNumber: 19,
+  title: "Sharing AI #19: Bingung Bareng T3",
   description:
-    "Sesi eksplorasi interaktif dan hands-on troubleshooting seputar alur kerja ComfyUI, pemanfaatan custom nodes, instalasi checkpoint/LoRA, dan optimalisasi pipeline generative image lokal.",
-  date: "2026-10-30",
-  time: "14:00 - 15:30 WIB",
-  category: "Generative AI",
+    "Sesi eksplorasi interaktif dan hands-on seputar ekosistem T3 (T3 Code, MCP tools, agentic AI coding, orchestration, dan alur kerja pengembangan modern).",
+  date: "2026-11-20",
+  time: "14:00 - 15:00 WIB",
+  category: "MCP & Tools",
   isUpcoming: true,
   speaker: {
-    name: "Heru, Ilman Fahmi & Komunitas",
+    name: "Heru",
     role: "Community Organizer & AI Practitioner",
     company: "Jumat.AI",
     avatarUrl: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=300",
   },
-  meetUrl: "https://meet.google.com/dav-upaa-ivx",
+  meetUrl: "https://meet.google.com/qqd-yeib-tsz",
+  dialIn: {
+    phone: "(US) +1 401-684-3399",
+    pin: "231 485 135#",
+    moreNumbersUrl: "https://tel.meet/qqd-yeib-tsz?pin=9571948339060",
+  },
   keyTakeaways: [
-    "Eksplorasi lanjutan arsitektur ComfyUI & Node Wiring",
-    "Bedah custom nodes populer & trik mengatasi missing nodes error",
-    "Tanya jawab dan live troubleshooting kasus anggota",
+    "Eksplorasi ekosistem T3 Code untuk agentic coding dan otomasi developer",
+    "Pemanfaatan Model Context Protocol (MCP) dan multi-agent orchestration",
+    "Hands-on demo langsung, Q&A interaktif, dan troubleshooting bersama",
   ],
 };
 
 // Seluruh arsip sesi kronologis yang telah berlangsung
 export const ARCHIVED_SESSIONS: Session[] = [
+  {
+    id: "session-18",
+    sessionNumber: 18,
+    title: "Sharing AI #18: Bingung Bareng Comfy UI (lagi)",
+    description:
+      "Sesi eksplorasi interaktif dan hands-on troubleshooting seputar alur kerja ComfyUI, pemanfaatan custom nodes, instalasi checkpoint/LoRA, dan optimalisasi pipeline generative image lokal.",
+    date: "2026-10-30",
+    time: "14:00 - 15:30 WIB",
+    category: "Generative AI",
+    speaker: {
+      name: "Heru, Ilman Fahmi & Komunitas",
+      role: "Community Organizer & AI Practitioner",
+      avatarUrl: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=300",
+    },
+    meetUrl: "https://meet.google.com/dav-upaa-ivx",
+    keyTakeaways: [
+      "Eksplorasi lanjutan arsitektur ComfyUI & Node Wiring",
+      "Bedah custom nodes populer & trik mengatasi missing nodes error",
+      "Tanya jawab dan live troubleshooting kasus anggota",
+    ],
+  },
   {
     id: "session-17",
     sessionNumber: 17,

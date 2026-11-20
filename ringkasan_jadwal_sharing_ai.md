@@ -6,13 +6,13 @@ Dokumen ini berisi rekapitulasi lengkap dan kronologis dari seluruh kegiatan **S
 
 ## 📌 Ringkasan Umum
 
-* **Total Kegiatan:** 19 Pertemuan
-* **Rentang Waktu:** 14 Juni 2026 – 30 Oktober 2026
+* **Total Kegiatan:** 20 Pertemuan
+* **Rentang Waktu:** 14 Juni 2026 – 20 November 2026
 * **Penyelenggara (Organizer):** Heru Arief Wijaya
 * **Platform:** Google Meet
 * **Status Acara:**
-  * **Telah Berlangsung:** 18 Pertemuan (14 Juni 2026 – 23 Oktober 2026)
-  * **Hari Ini / Mendatang:** 1 Pertemuan (30 Oktober 2026)
+  * **Telah Berlangsung:** 19 Pertemuan (14 Juni 2026 – 30 Oktober 2026)
+  * **Hari Ini / Mendatang:** 1 Pertemuan (20 November 2026)
 
 ---
 
@@ -39,6 +39,18 @@ Dokumen ini berisi rekapitulasi lengkap dan kronologis dari seluruh kegiatan **S
 | 16 | **Sharing AI #16: Flexing & Brainstorming Bareng Pejabat** | 09 Oktober 2026 | 14:00 - 15:00 | Selesai | [Meet](https://meet.google.com/gnw-mvvm-kcg) |
 | 17 | **Sharing AI #17: Hari Gini Pake AI masih di Web?** | 23 Oktober 2026 | 14:00 - 15:00 | Selesai | [Meet](https://meet.google.com/ozp-goaj-bso) |
 | 18 | **Sharing AI #18: Bingung Bareng Comfy UI (lagi)** | 30 Oktober 2026 | 14:00 - 15:00 | Selesai | [Meet](https://meet.google.com/dav-upaa-ivx) |
+| 19 | **Sharing AI #19: Bingung Bareng T3** | 20 November 2026 | 14:00 - 15:00 | Terjadwal (Hari Ini) | [Meet](https://meet.google.com/qqd-yeib-tsz) |
+
+---
+
+## ℹ️ Detail Sesi Hari Ini (Sharing AI #19)
+
+* **Topik:** Sharing AI #19: Bingung Bareng T3
+* **Pemateri:** Heru
+* **Jadwal:** Jumat, 20 November 2026 · 14:00 – 15:00 WIB (Asia/Jakarta)
+* **Link Google Meet:** [https://meet.google.com/qqd-yeib-tsz](https://meet.google.com/qqd-yeib-tsz)
+* **Akses Sambungan Telepon (Dial-in):** (US) +1 401-684-3399 | **PIN:** 231 485 135#
+* **Daftar Nomor Tambahan:** [https://tel.meet/qqd-yeib-tsz?pin=9571948339060](https://tel.meet/qqd-yeib-tsz?pin=9571948339060)
 
 ---
 

@@ -17,12 +17,17 @@ import { CountdownTimer } from "./CountdownTimer";
 export function HeroSession() {
   const session = UPCOMING_SESSION;
 
-  // Generate Google Calendar Link
-  const startTimeStr = "20261030T070000Z"; // 14:00 WIB in UTC is 07:00 UTC
-  const endTimeStr = "20261030T083000Z"; // 15:30 WIB in UTC is 08:30 UTC
+  // Generate Google Calendar Link dynamically
+  const dateFormatted = session.date.replace(/-/g, "");
+  const is90Min = session.time.includes("15:30");
+  const startTimeStr = `${dateFormatted}T070000Z`; // 14:00 WIB in UTC is 07:00 UTC
+  const endTimeStr = `${dateFormatted}T${is90Min ? "083000Z" : "080000Z"}`; // 15:00 WIB in UTC is 08:00 UTC
   const gcalTitle = encodeURIComponent(`Jumat.AI: ${session.title}`);
+  const dialInInfoStr = session.dialIn
+    ? `\nDial-in: ${session.dialIn.phone} PIN: ${session.dialIn.pin}\nMore numbers: ${session.dialIn.moreNumbersUrl || ""}`
+    : "";
   const gcalDetails = encodeURIComponent(
-    `${session.description}\n\nPenyelenggara: ${COMMUNITY_INFO.organizer}\nLink Meet: ${session.meetUrl || "Google Meet"}\nWebsite: https://jumat.ai.id`
+    `${session.description}\n\nPenyelenggara: ${COMMUNITY_INFO.organizer}\nLink Meet: ${session.meetUrl || "Google Meet"}${dialInInfoStr}\nWebsite: https://jumat.ai.id`
   );
   const gcalUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${gcalTitle}&dates=${startTimeStr}/${endTimeStr}&details=${gcalDetails}&location=Online%20(Google%20Meet)`;
 
@@ -156,6 +161,28 @@ export function HeroSession() {
                   Tambah ke Google Calendar
                 </a>
               </div>
+
+              {session.dialIn && (
+                <div className="text-xs text-zinc-400 bg-zinc-900/60 border border-zinc-800/80 rounded-xl p-3 flex flex-wrap items-center gap-x-2 gap-y-1">
+                  <span className="text-zinc-500 font-medium">Opsi Dial-in Telepon:</span>
+                  <span className="text-zinc-200 font-mono font-medium">{session.dialIn.phone}</span>
+                  <span className="text-zinc-600">•</span>
+                  <span>PIN: <strong className="text-cyan-400 font-mono">{session.dialIn.pin}</strong></span>
+                  {session.dialIn.moreNumbersUrl && (
+                    <>
+                      <span className="text-zinc-600">•</span>
+                      <a
+                        href={session.dialIn.moreNumbersUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-cyan-400 hover:text-cyan-300 hover:underline"
+                      >
+                        Nomor telepon lainnya
+                      </a>
+                    </>
+                  )}
+                </div>
+              )}
             </div>
 
             {/* Speaker Spotlight Card */}

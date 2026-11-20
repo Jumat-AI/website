@@ -22,6 +22,20 @@ INSERT INTO public.sessions (
     is_published
 ) VALUES
 (
+    19,
+    'Sharing AI #19: Bingung Bareng T3',
+    'Sesi eksplorasi interaktif dan hands-on seputar ekosistem T3 (T3 Code, MCP tools, agentic AI, orchestration, dan alur kerja pengembangan modern).',
+    'MCP & Tools',
+    '2026-11-20',
+    '14:00:00',
+    '15:00:00',
+    '11111111-1111-1111-1111-111111111111',
+    'https://meet.google.com/qqd-yeib-tsz',
+    ARRAY['Pengenalan dan eksplorasi lingkungan kerja AI & Agentic Coding dengan T3', 'Integrasi Model Context Protocol (MCP) dan tool orchestration', 'Praktik hands-on, Q&A, dan live troubleshooting bersama'],
+    TRUE,
+    TRUE
+),
+(
     18,
     'Sharing AI #18: Bingung Bareng Comfy UI (lagi)',
     'Sesi eksplorasi interaktif dan hands-on troubleshooting seputar alur kerja ComfyUI, pemanfaatan custom nodes, instalasi checkpoint/LoRA, dan optimalisasi pipeline generative image lokal.',
@@ -30,9 +44,9 @@ INSERT INTO public.sessions (
     '14:00:00',
     '15:30:00',
     '11111111-1111-1111-1111-111111111111',
-    'https://meet.google.com/open-sharing-ai',
+    'https://meet.google.com/dav-upaa-ivx',
     ARRAY['Eksplorasi lanjutan arsitektur ComfyUI & Node Wiring', 'Bedah custom nodes populer & trik mengatasi missing nodes error', 'Tanya jawab dan live troubleshooting kasus anggota'],
-    TRUE,
+    FALSE,
     TRUE
 ),
 (
