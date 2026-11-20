@@ -1,14 +1,14 @@
 import React from "react";
 import { COMMUNITY_INFO } from "@/data/community";
-import { Users, Presentation, Sparkles, ShieldCheck } from "lucide-react";
+import { Presentation, Calendar, ShieldCheck, Sparkles } from "lucide-react";
 
 export function StatsSection() {
-  const icons = [Presentation, Users, Sparkles, ShieldCheck];
+  const icons = [Presentation, Calendar, ShieldCheck];
 
   return (
     <section className="border-y border-zinc-800/80 bg-zinc-950/50 py-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 lg:gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 lg:gap-8">
           {COMMUNITY_INFO.stats.map((stat, idx) => {
             const Icon = icons[idx] || Sparkles;
             return (

@@ -48,7 +48,6 @@ export const COMMUNITY_INFO = {
   stats: [
     { label: "Total Pertemuan", value: "20 Sesi" },
     { label: "Rentang Agenda", value: "Jun - Nov 2026" },
-    { label: "Peserta Aktif / Sesi", value: "8 - 10+ Org" },
     { label: "Biaya & Akses", value: "100% Gratis" },
   ],
 };
@@ -433,10 +432,6 @@ export const FAQS = [
   {
     q: "Kapan jadwal rutin sesi diadakan?",
     a: "Sesi rutin diadakan setiap hari Jumat siang pukul 14:00 - 15:30 WIB secara online melalui Google Meet.",
-  },
-  {
-    q: "Siapa penyelenggara inisiatif ini?",
-    a: "Inisiatif ini diorganisir oleh Heru bersama komunitas pegiat AI yang aktif berbagi setiap pekan.",
   },
   {
     q: "Bagaimana cara ikut bergabung ke sesi Google Meet?",
