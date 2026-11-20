@@ -4,7 +4,7 @@
 
 -- 1. Insert Initial Speakers
 INSERT INTO public.speakers (id, name, role, company, avatar_url) VALUES
-('11111111-1111-1111-1111-111111111111', 'Heru Arief Wijaya', 'Community Organizer & AI Practitioner', 'Jumat.AI', 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=300');
+('11111111-1111-1111-1111-111111111111', 'Heru & Ditya', 'Community Organizer & AI Practitioner', 'Jumat.AI', 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=300');
 
 -- 2. Insert Recent & Upcoming Sessions
 INSERT INTO public.sessions (

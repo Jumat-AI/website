@@ -46,7 +46,7 @@ Dokumen ini berisi rekapitulasi lengkap dan kronologis dari seluruh kegiatan **S
 ## ℹ️ Detail Sesi Hari Ini (Sharing AI #19)
 
 * **Topik:** Sharing AI #19: Bingung Bareng T3
-* **Pemateri:** Heru
+* **Pemateri:** Heru & Ditya
 * **Jadwal:** Jumat, 20 November 2026 · 14:00 – 15:00 WIB (Asia/Jakarta)
 * **Link Google Meet:** [https://meet.google.com/qqd-yeib-tsz](https://meet.google.com/qqd-yeib-tsz)
 * **Akses Sambungan Telepon (Dial-in):** (US) +1 401-684-3399 | **PIN:** 231 485 135#
@@ -60,6 +60,7 @@ Dokumen ini berisi rekapitulasi lengkap dan kronologis dari seluruh kegiatan **S
 * **Partisipasi di Chat Google Meet:** Berdasarkan log percakapan Meet pada beberapa sesi terakhir, tercatat **8 hingga 10+ orang** aktif berinteraksi per sesi.
 * **Daftar Peserta Aktif yang Terdeteksi:**
   * Heru Arief Wijaya (Organizer)
+  * Ditya
   * Muhamad Rizky Ramadhan
   * Agustian Permadi
   * Nevita Ary Sukarna
